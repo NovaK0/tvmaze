@@ -3,11 +3,6 @@ import {useEffect,useState} from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from './components/home/Home';
 import { Details } from './components/Details';
-import { Body } from './components/home/Body';
-
-
-
-
 function App() {
 
 
@@ -17,7 +12,6 @@ function App() {
        <div className='navbar'>
        <div className='big_text'>TV Maze</div>
         </div>
-
      <BrowserRouter>
      <Routes>
          <Route index element={<Home/>} /> 
